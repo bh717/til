@@ -53,7 +53,7 @@ jobs:
         datasette publish now til.db \
           --token $VERCEL_TOKEN \
           --branch master \
-          --project simon-til \
+          --project leo-til \
           --metadata metadata.yml \
           --install py-gfm \
           --install datasette-render-markdown \
