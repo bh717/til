@@ -1,6 +1,6 @@
 title: Today I Learned
-about: simonw/til
-about_url: https://github.com/simonw/til
+about: mopig/til
+about_url: https://github.com/mopig/til
 databases:
   til:
     queries:
@@ -20,16 +20,16 @@ databases:
         order by
           til_fts.rank limit 20
       feed:
-        title: Simon Willison TIL
+        title: Leo TIL
         sql: |-
           SELECT
-            'tag:til.simonwillison.net,2020-04-30:' || path as atom_id,
+            'tag:til.xiaozhu.dev,2020-04-30:' || path as atom_id,
             title as atom_title,
             url as atom_link,
             created_utc as atom_updated,
             rewrite_github_images(render_markdown(body), url) as atom_content_html,
-            'Simon Willison' as atom_author_name,
-            'https://simonwillison.net/' as atom_author_uri
+            'Leo' as atom_author_name,
+            'https://xiaozhu.dev/' as atom_author_uri
           FROM
             til
           order by
