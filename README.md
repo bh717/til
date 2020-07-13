@@ -1,4 +1,4 @@
-# Today I Learned
+# Today I Learned ![Build README and deploy Datasette](https://github.com/mopig/til/workflows/Build%20README%20and%20deploy%20Datasette/badge.svg)
 
 <!-- count starts -->4<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
