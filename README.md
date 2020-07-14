@@ -1,6 +1,6 @@
 # Today I Learned ![Build README and deploy Datasette](https://github.com/mopig/til/workflows/Build%20README%20and%20deploy%20Datasette/badge.svg)
 
-<!-- count starts -->6<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->8<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -22,8 +22,13 @@
 ## javascript
 
 * [Promise API 列表，粗略解析](https://github.com/mopig/til/blob/master/javascript/promise-api.md) - 2020-07-13
+* [Navigator.sendBeacon API 异步发送数据](https://github.com/mopig/til/blob/master/javascript/send-beacon.md) - 2020-07-14
 
 ## http
 
 * [HTTP/2 概览](https://github.com/mopig/til/blob/master/http/http_2.md) - 2020-07-14
+
+## web-audit
+
+* [Web Vitals - Web 重要性能指标](https://github.com/mopig/til/blob/master/web-audit/web-vitals.md) - 2020-07-14
 <!-- index ends -->
