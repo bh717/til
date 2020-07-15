@@ -1,6 +1,6 @@
 # Today I Learned ![Build README and deploy Datasette](https://github.com/mopig/til/workflows/Build%20README%20and%20deploy%20Datasette/badge.svg)
 
-<!-- count starts -->8<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->9<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -23,6 +23,7 @@
 
 * [Promise API 列表，粗略解析](https://github.com/mopig/til/blob/master/javascript/promise-api.md) - 2020-07-13
 * [Navigator.sendBeacon API 异步发送数据](https://github.com/mopig/til/blob/master/javascript/send-beacon.md) - 2020-07-14
+* [初始化指定长度的 Array](https://github.com/mopig/til/blob/master/javascript/init-array.md.md) - 2020-07-15
 
 ## http
 
