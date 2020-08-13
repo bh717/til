@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->13<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->14<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -44,4 +44,8 @@
 ## webpack
 
 * [Webpack 的大致执行流程](https://github.com/mopig/til/blob/master/webpack/webpack-flow.md) - 2020-08-13
+
+## vue
+
+* [Vue 的优化技巧](https://github.com/mopig/til/blob/master/vue/optimize-skills.md) - 2020-08-13
 <!-- index ends -->
