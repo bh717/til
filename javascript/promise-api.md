@@ -3,6 +3,7 @@
 - Promise.all(iterable) - 所有的 promise resolved 或者任何的 promise rejected
 - Promise.allSettled(iterable) - 所有的状态 settled「resolved 或 rejected」
 - Promise.race(iterable) - 任何一个 resolved 或 rejected
+- Promise.any(iterable) - 任何一个 resolved
 - Promise.reject(reason) - reject
 - Promise.resolve(value) - resolve
 - Promise.prototype.catch() - handle rejected 的错误
