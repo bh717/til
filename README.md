@@ -2,6 +2,8 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
+> 每天进步一点点
+
 <!-- count starts -->14<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
