@@ -4,7 +4,7 @@
 
 > 每天进步一点点
 
-<!-- count starts -->14<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->15<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -50,4 +50,8 @@
 ## vue
 
 * [Vue 的优化技巧](https://github.com/mopig/til/blob/master/vue/optimize-skills.md) - 2020-08-13
+
+## npm
+
+* [npm vs npx vs yarn](https://github.com/mopig/til/blob/master/npm/npm-npx-yarn.md) - 2020-09-02
 <!-- index ends -->
