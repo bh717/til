@@ -12,4 +12,10 @@ docker build -t image_name path/to/Dockerfile
 
 # 运行 docker 容器实例
 docker run --rm -dp host_port:container_port image command
+
+# 停止/开始/删除容器
+docker start/stop/rm container_name
+
+# 删除镜像
+docker rmi IMAGE
 ```
