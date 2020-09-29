@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->16<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->17<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -40,6 +40,7 @@
 ## css
 
 * [CSS 单位梳理](https://github.com/mopig/til/blob/master/css/css-unit.md) - 2020-07-24
+* [animation 基本使用](https://github.com/mopig/til/blob/master/css/animation-basic.md.md) - 2020-09-29
 
 ## webpack
 
