@@ -1,6 +1,12 @@
 title: Today I Learned
 about: mopig/til
 about_url: https://github.com/mopig/til
+plugins:
+  datasette-atom:
+    allow_unsafe_html_in_canned_queries: true
+  datasette-media:
+    screenshot:
+      "sql": "select shot as content, 'image/png' as content_type from til where path=:key"
 databases:
   til:
     queries:
@@ -8,6 +14,7 @@ databases:
         select
           til_fts.rank,
           til.*
+          snippet(til_fts, -1, 'b4de2a49c8', '8c94a2ed4b', '...', 60) as snippet
         from
           til
           join til_fts on til.rowid = til_fts.rowid
@@ -22,14 +29,15 @@ databases:
       feed:
         title: Leo TIL
         sql: |-
+
           SELECT
             'tag:til.xiaozhu.dev,2020-04-30:' || path as atom_id,
             title as atom_title,
-            url as atom_link,
+            'https://til.xiaozhu.dev/til/til/' || path as atom_link,
             created_utc as atom_updated,
-            rewrite_github_images(render_markdown(body), url) as atom_content_html,
+            html as atom_content_html,
             'Leo' as atom_author_name,
-            'https://xiaozhu.dev/' as atom_author_uri
+            'https://til.xiaozhu.dev/' as atom_author_uri
           FROM
             til
           order by
@@ -41,29 +49,3 @@ databases:
         sort_desc: updated_utc
         facets:
         - topic
-        plugins:
-          datasette-render-markdown:
-            columns:
-            - body
-            extra_tags:
-            - img
-            - hr
-            - br
-            - details
-            - summary
-            - input
-            - div
-            - span
-            extra_attrs:
-              input:
-              - type
-              - disabled
-              - checked
-              img:
-              - src
-              div:
-              - class
-              span:
-              - class
-            extensions:
-            - mdx_gfm:GithubFlavoredMarkdownExtension
