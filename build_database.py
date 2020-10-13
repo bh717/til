@@ -46,7 +46,8 @@ def build_database(repo_path):
             "url": url,
             "body": body,
         }
-        record.update(all_times[path])
+        if path in all_times:
+            record.update(all_times[path])
         table.insert(record)
     if "til_fts" not in db.table_names():
         table.enable_fts(["title", "body"])
