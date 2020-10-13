@@ -33,7 +33,7 @@ databases:
           SELECT
             'tag:til.xiaozhu.dev,2020-04-30:' || path as atom_id,
             title as atom_title,
-            'https://til.xiaozhu.dev/til/til/' || path as atom_link,
+            path as atom_link,
             created_utc as atom_updated,
             html as atom_content_html,
             'Leo' as atom_author_name,
