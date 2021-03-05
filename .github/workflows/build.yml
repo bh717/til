@@ -87,13 +87,13 @@ jobs:
         node-version: '15.x'
     - name: Deploy Datasette using Vercel
       env:
-        NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       run: |-
         cd main
         datasette publish vercel tils.db \
-          --token $NOW_TOKEN \
+          --token $VERCEL_TOKEN \
           --branch main \
-          --project simon-til \
+          --project mopig-til \
           --metadata metadata.yaml \
           --static static:static \
           --install datasette-template-sql \
