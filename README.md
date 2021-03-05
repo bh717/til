@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->18<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->19<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -28,6 +28,7 @@
 * [初始化指定长度的 Array](https://github.com/mopig/til/blob/master/javascript/init-array.md.md) - 2020-07-15
 * [Promise 并发执行任务限制](https://github.com/mopig/til/blob/master/javascript/promise-concurrency.md.md) - 2020-07-16
 * [关于 JS 的类型转换](https://github.com/mopig/til/blob/master/javascript/conversion-algorithm.md.md) - 2020-07-25
+* [Curry 工具函数实现](https://github.com/mopig/til/blob/master/javascript/curry.md) - 2021-03-05
 
 ## http
 
