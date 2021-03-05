@@ -1,11 +1,20 @@
 {% extends "til_base.html" %}
 
-{% block title %}{% set til = display_rows[0] %}{{ til.title }} | Leo’s TILs{% endblock %}
+{% set tils = sql("""
+    select * from til where path = :topic || '_' || :slug || '.md'
+""", {"topic": topic, "slug": slug}, database="tils")
+%}
+{% set til = tils[0] %}
+{% if not tils %}
+    {% set raised = raise_404("TIL not found") %}
+{% endif %}
 
-{% block extra_head %}{% set til = display_rows[0] %}
+{% block title %}{{ til.title }} | Leo’s TILs{% endblock %}
+
+{% block extra_head %}
 <link rel="stylesheet" href="/static/github-light.css">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@leoaee">
+<meta name="twitter:creator" content="@simonw">
 <meta name="twitter:title" content="{{ til.title }}">
 <meta name="twitter:description" content="{{ til.body }}">
 <meta name="twitter:image" content="https://til.xiaozhu.dev/-/media/screenshot/{{ til.path }}">
@@ -20,7 +29,7 @@
 <meta property="og:image:height" content="400">
 {% endblock %}
 
-{% block body %}{% set til = display_rows[0] %}
+{% block body %}
 <h1>{{ til.title }}</h1>
 
 {{ til.html|safe }}

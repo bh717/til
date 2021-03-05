@@ -8,12 +8,12 @@ plugins:
     screenshot:
       "sql": "select shot as content, 'image/png' as content_type from til where path=:key"
 databases:
-  til:
+  tils:
     queries:
       search: |
         select
           til_fts.rank,
-          til.*
+          til.*,
           snippet(til_fts, -1, 'b4de2a49c8', '8c94a2ed4b', '...', 60) as snippet
         from
           til
@@ -21,7 +21,7 @@ databases:
         where
           til_fts match case
             :q
-            when '' then '*'
+            when '' then 'nomatchforthisterm'
             else escape_fts(:q)
           end
         order by
@@ -29,15 +29,14 @@ databases:
       feed:
         title: Leo TIL
         sql: |-
-
           SELECT
             'tag:til.xiaozhu.dev,2020-04-30:' || path as atom_id,
             title as atom_title,
-            url as atom_link,
+            'https://til.xiaozhu.dev/' || topic || '/' || slug as atom_link,
             created_utc as atom_updated,
             html as atom_content_html,
             'Leo' as atom_author_name,
-            'https://til.xiaozhu.dev/' as atom_author_uri
+            'https://xiaozhu.dev/' as atom_author_uri
           FROM
             til
           order by
