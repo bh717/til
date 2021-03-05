@@ -1,5 +1,7 @@
 # Curry 工具函数实现
 
+> 柯里化工具函数实现，如下：
+
 ```javascript
 function curry(fn) {
   let length = fn.length
