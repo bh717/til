@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->20<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->21<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -63,4 +63,8 @@
 ## docker
 
 * [Docker 常用命令](https://github.com/mopig/til/blob/main/docker/docker-cli.md) - 2020-10-13
+
+## os
+
+* [查看系统内核和发行版本](https://github.com/mopig/til/blob/main/os/view-macOS.md) - 2021-03-30
 <!-- index ends -->
