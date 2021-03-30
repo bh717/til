@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->19<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->20<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -33,6 +33,7 @@
 ## http
 
 * [HTTP/2 概览](https://github.com/mopig/til/blob/main/http/http_2.md) - 2020-07-14
+* [快速启动一个本地的静态服务器](https://github.com/mopig/til/blob/main/http/http_server.md) - 2021-03-30
 
 ## web-audit
 
