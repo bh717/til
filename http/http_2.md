@@ -7,7 +7,7 @@
 - 流（Stream）：存在于连接中的一个虚拟通道。流可以承载双向消息，每个流都有一个唯一的整数 ID
 - 连接（Connection）：与 HTTP/1 相同，都是指对应的 TCP 连接
 
-![HTTP/2 detail](./http_2_detail.webp)
+![HTTP/2 detail](https://cdn.jsdelivr.net/gh/mopig/oss@master/uPic/202104/acCiiy.jpg)
 
 ## 相对于 HTTP/1.1
 
