@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->21<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->22<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -67,4 +67,8 @@
 ## os
 
 * [查看系统内核和发行版本](https://github.com/mopig/til/blob/main/os/view-macOS.md) - 2021-03-30
+
+## rust
+
+* [初识 Rust](https://github.com/mopig/til/blob/main/rust/day_001.md) - 2021-04-29
 <!-- index ends -->
