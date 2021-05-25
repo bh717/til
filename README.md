@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->22<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->23<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -55,6 +55,7 @@
 ## npm
 
 * [npm vs npx vs yarn](https://github.com/mopig/til/blob/main/npm/npm-npx-yarn.md) - 2020-09-02
+* [With `npm` OR `yarn` check updates](https://github.com/mopig/til/blob/main/npm/npm-check-updates.md) - 2021-05-25
 
 ## vs-code
 
