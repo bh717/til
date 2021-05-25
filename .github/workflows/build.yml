@@ -1,6 +1,7 @@
 name: Build README and deploy Datasette
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
