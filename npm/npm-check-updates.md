@@ -1,4 +1,4 @@
-# `npm` OR `yarn` check updates
+# With `npm` OR `yarn` check updates
 
 ## npm
 
