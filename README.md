@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->23<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->24<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -72,4 +72,8 @@
 ## rust
 
 * [初识 Rust](https://github.com/mopig/til/blob/main/rust/day_001.md) - 2021-04-29
+
+## git
+
+* [不同的文件夹读取不同的配置文件](https://github.com/mopig/til/blob/main/git/git-config.md) - 2021-06-08
 <!-- index ends -->
