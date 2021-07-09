@@ -1,4 +1,4 @@
-# Today I Learned. ![Build README and deploy Datasette](https://github.com/mopig/til/workflows/Build%20README%20and%20deploy%20Datasette/badge.svg)
+# Today I Learned. ![Build README and deploy Datasette](https://github.com/mopig/til/workflows/Build%20README%20and%20deploy%20Datasette/badge.svg)[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/mopig/til)
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
