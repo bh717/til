@@ -93,7 +93,6 @@ jobs:
         cd main
         datasette publish vercel tils.db \
           --token $VERCEL_TOKEN \
-          --branch main \
           --project mopig-til \
           --metadata metadata.yaml \
           --static static:static \
