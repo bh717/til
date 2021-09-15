@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->25<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->26<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -77,4 +77,8 @@
 ## git
 
 * [不同的文件夹读取不同的配置文件](https://github.com/mopig/til/blob/main/git/git-config.md) - 2021-06-08
+
+## node
+
+* [Node.js 包管理器的管理器 Corepack 的介绍和使用](https://github.com/mopig/til/blob/main/node/corepack.md) - 2021-09-15
 <!-- index ends -->
