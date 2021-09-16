@@ -2,7 +2,7 @@
 
 > Inspired by [simonw/til](https://github.com/simonw/til)
 
-<!-- count starts -->26<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->27<!-- count ends --> TILs so far. <a href="https://til.xiaozhu.dev/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -81,4 +81,8 @@
 ## node
 
 * [Node.js 包管理器的管理器 Corepack 的介绍和使用](https://github.com/mopig/til/blob/main/node/corepack.md) - 2021-09-15
+
+## network
+
+* [DNS 服务器分类和域名解析流程](https://github.com/mopig/til/blob/main/network/dns-intro.md) - 2021-09-16
 <!-- index ends -->
