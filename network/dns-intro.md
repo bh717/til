@@ -2,12 +2,12 @@
 
 ### DNS 服务器分类
 
-- DNS 递归解析器 - DNS recursive resolver
-- DNS 根域名服务器 - DNS root nameserver
-- TLD 域名服务器 - TLD nameserver
-- 权威性域名服务器 - authoritative nameserver
+- DNS 递归解析器 - `DNS recursive resolver`
+- DNS 根域名服务器 - `DNS root nameserver`
+- TLD 域名服务器 - `TLD nameserver`
+- 权威性域名服务器 - `authoritative nameserver`
 
-> 还有个辅助域名服务器 - helper nameserver
+> 还有个辅助域名服务器 - *helper nameserver*
 
 ### 流程图
 
